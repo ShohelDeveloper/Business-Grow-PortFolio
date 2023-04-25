@@ -419,8 +419,9 @@ img{
 
 .skills__content{
     background-color: var(--container-color);
-    padding: 1.5rem;
+    padding: 0.7rem 0.4rem;
     border-radius: 1.25rem;
+    box-sizing: content-box;
 }
 
 .skills__title{
@@ -522,7 +523,7 @@ img{
     background-color: var(--body-color);
     padding: 4.5rem 1.5rem 2.5rem;
     border-radius: 1.5rem;
- height:800px;
+    height:500px;
     overflow: auto;
 }
 
@@ -939,9 +940,9 @@ body.light-theme{
         justify-content: center;
     }
 
-    .skills__content{
+    /* .skills__content{
         padding: 2rem 4rem;
-    }
+    } */
 
     .serivces__container{
         grid-template-columns: repeat(2,160px);
